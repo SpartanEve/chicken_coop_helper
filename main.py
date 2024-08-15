@@ -71,8 +71,8 @@ if mqtt_client is not None:
             string = "Temperature: {}\nHumidity: {}".format(sensor.temperature, sensor.humidity)
             print(string)
             change_LED(light_value)
-            utime.sleep(10)
-            # sleep set to 10 for tersting purposes, when used in the chicken coop sleep will be set to 60 minutes since it doesn't need to be as precise
+            utime.sleep(1800)
+            # sleep for 1800s or 30 minutes since it doesn't have to update to frequently
 
     except Exception as e:
         print(f'Failed to publish message: {e}')
