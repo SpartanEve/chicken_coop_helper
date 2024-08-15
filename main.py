@@ -22,7 +22,7 @@ def check_time():
     evening = 20
     print('Current time: ', curr_hour)
     
-    if (curr_hour >= morning) and (curr_hour <= evening):
+    if (curr_hour >= morning) and (curr_hour < evening):
         return 'day'
     return 'night'
 
