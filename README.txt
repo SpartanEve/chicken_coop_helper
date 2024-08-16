@@ -9,7 +9,7 @@ it will also turn on a led-light if it is dark during daytime to help regulate t
 The project requires a microcontroller, photoresistor, DHT11-sensor, some wires, 220ohm resistor, 10Kohm resistor, a LED-light, and a power source to run the microcontroller.
 I used a Raspberry Pi Pico W which the code is customized for, I have not tried it with other microcontrollers.
 
-There is room for improvment, a thought I've had is to add a motiondetector that would be on the outside of the coop, that would send a notification to warn about a possible predetor.
+Link to report about project: https://hackmd.io/@ej224dc/ry7RtIw5C
 
 
-Last updated: 2024-08-15
+Last updated: 2024-08-16
